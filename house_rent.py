@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.array ([1.5, 2.0, 2.5, 3.0, 4.0])  # Land sizes in sq ft
+x = np.array ([1.5, 2.0, 2.5, 3.0, 4.0, np.inf])  # Land sizes in sq ft
 y = np.array([150, 200, 250, 300, 400, ])  # rents in lakhs
 
 w = 0
